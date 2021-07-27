@@ -7,4 +7,26 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'mc-app';
+
+  menuItems = [{
+    name: 'About',
+    items: [
+    ]
+}, {
+    name: 'Our Vision',
+    items: [
+    ]
+}, {
+    name: 'Templates',
+    items: [{
+        name: 'Responsive',
+        items: [
+        ]
+    }, {
+        name: 'Static',
+        items: [
+        ]
+    }]
+}];
+
 }
